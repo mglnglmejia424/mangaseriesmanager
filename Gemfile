@@ -39,6 +39,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Faraday as the HTTP request manager
+gem 'faraday'
+
+# Use Faraday Middleware as the HTTP request Middleware manager
+gem 'faraday_middleware'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
